@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Analyzer</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header id="navbar">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#analyze">Analyze</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section id="home">
+            <h1>Welcome to Voice Analyzer</h1>
+            <p>Analyze your voice, get feedback, and improve your skills.</p>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>Voice Analyzer uses cutting-edge technology to provide insights into your voice type and offers personalized feedback.</p>
+        </section>
+
+        <section id="analyze">
+            <h2>Analyze Your Voice</h2>
+            <p>Record or upload your voice to analyze:</p>
+            
+            <!-- Recording Controls -->
+            <button id="recordButton">Start Recording</button>
+            <button id="stopButton" disabled>Stop Recording</button>
+            
+            <!-- File Upload -->
+            <p>Or upload a file:</p>
+            <input type="file" id="audioUpload" accept="audio/*">
+            <button id="uploadButton">Upload & Analyze</button>
+            
+            <p id="analysisResult"></p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: support@voiceanalyzer.com</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Voice Analyzer. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
